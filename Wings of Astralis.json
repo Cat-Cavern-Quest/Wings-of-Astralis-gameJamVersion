@@ -98,6 +98,346 @@
         "name": "navetest.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Nautolan Bullet_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_1.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/18643d009829e5a77d4076aefea549dfbee96d221a85aff673ca86adb37cb161_Nautolan Bullet_1.png",
+          "name": "Nautolan Bullet_1.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Bullet_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_2.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/05dd4c9e177addfca5a235d048baa23a1a6e2debe88d5ca088d872f4d26d16bf_Nautolan Bullet_2.png",
+          "name": "Nautolan Bullet_2.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Bullet_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_3.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/db46dd342645369ac05b757583d4591f88ddf844035c95239621797dc3ecb8fb_Nautolan Bullet_3.png",
+          "name": "Nautolan Bullet_3.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Bullet_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_4.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/eeb82aa857859222be73b8cadf675467f12d5709f7e77bbf65834255a3fdfac1_Nautolan Bullet_4.png",
+          "name": "Nautolan Bullet_4.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Bullet_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_5.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/76ec3ad717098f96ab2197118c43a4a26fa294a59f48ac456d095bf0309d8587_Nautolan Bullet_5.png",
+          "name": "Nautolan Bullet_5.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Bullet_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_6.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/f6fcfb7d65c26bec3cebda37a974dd5c2ce7a8704763b8817f43390c261cef58_Nautolan Bullet_6.png",
+          "name": "Nautolan Bullet_6.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Bullet_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_7.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/20a63bbc0576938fdd49395048ba35320ad70ae0931540137a6e992210b5bb6a_Nautolan Bullet_7.png",
+          "name": "Nautolan Bullet_7.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Bullet_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Nautolan Bullet_8.png\",\"extension\":\".png\"}",
+        "name": "Nautolan Bullet_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/c30b6e242497f0d1617260fac93eb0040fe2d2bbc12740babeb7a3ecb85d091e_Nautolan Bullet_8.png",
+          "name": "Nautolan Bullet_8.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/cfad89fcba3bb91b72f7d2d4e5b3f3c6b0c4e2b845799ffb938d03e0eaaef55b_Nautolan Spinning Bullet_1.png",
+          "name": "Nautolan Spinning Bullet_1.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/ea88ed2dcafa637599fa876a109828c7975a53e55f09dd69c4b60b9ade3b63b3_Nautolan Spinning Bullet_2.png",
+          "name": "Nautolan Spinning Bullet_2.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/2d27d4c7069392da75aaf41e37da2cc518ff88cacb657942c15ee550c85d9155_Nautolan Spinning Bullet_3.png",
+          "name": "Nautolan Spinning Bullet_3.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/dc986991a26b6c7484a2394120ec0ab4b8de1aa566eb7bc032d16120bfde49fd_Nautolan Spinning Bullet_4.png",
+          "name": "Nautolan Spinning Bullet_4.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/95d8a9696e58c6e4082cb89b54ffc0d56b30f9255cd05c085ba1d174badb7f68_Nautolan Spinning Bullet_5.png",
+          "name": "Nautolan Spinning Bullet_5.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/fa60fd8479e70994a1b7a4b856632b38b887ff721bc354d5ac51fa7289197e7a_Nautolan Spinning Bullet_6.png",
+          "name": "Nautolan Spinning Bullet_6.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/3fa3e9cc0327f8e1b0a641ca96319446826f18c9fbdf01ba43ff7ae53ec8f655_Nautolan Spinning Bullet_7.png",
+          "name": "Nautolan Spinning Bullet_7.png"
+        }
+      },
+      {
+        "file": "assets/Nautolan Spinning Bullet_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nautolan Spinning Bullet_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Nautolan Fleet/Projectiles/f9e7328b75cf333f7e13bee2d792eecbed956a6d3b676b32cbead4d681efcba9_Nautolan Spinning Bullet_8.png",
+          "name": "Nautolan Spinning Bullet_8.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Bullet_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/6e6c80fc639b2adbd92508b30c02298db8c99e3216a472c2978dd10da55a0e09_Klaed Bullet_1.png",
+          "name": "Klaed Bullet_1.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Bullet_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/262cc844b638227787b14dd5b75ae774ce4106bb8912a49c7676435c69315bd2_Klaed Bullet_2.png",
+          "name": "Klaed Bullet_2.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Bullet_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/29ca529987733117a21e8e762ca4f2f561e3520f36e450a53d3de7602d999066_Klaed Bullet_3.png",
+          "name": "Klaed Bullet_3.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Bullet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Bullet_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/1fe4301948f8583874fff0f5a5ab42f95c5f031e98baa45fa23bddd3df410042_Klaed Bullet_4.png",
+          "name": "Klaed Bullet_4.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Big Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Big Bullet_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/75cf5a94bbdae671c5cebcc5f3a08a17453fcc98f0c27b4c9f3e917eca327f80_Klaed Big Bullet_1.png",
+          "name": "Klaed Big Bullet_1.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Big Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Big Bullet_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/6c4ad5dc49ee17d88cc0306bd1d7aa10bffa0f0ca3c99b3112f33cb9a7066b75_Klaed Big Bullet_2.png",
+          "name": "Klaed Big Bullet_2.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Big Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Big Bullet_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/b57e75d23bf5043cc2400fd38fad8c07da3606db8953d8f775b60932fdb7e20d_Klaed Big Bullet_3.png",
+          "name": "Klaed Big Bullet_3.png"
+        }
+      },
+      {
+        "file": "assets/Klaed Big Bullet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Klaed Big Bullet_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Klaed Fleet/Projectiles/e69b6ac87fc6668d152cc8096974c34ff1e1ef55b66dc6618880cbf36df5b657_Klaed Big Bullet_4.png",
+          "name": "Klaed Big Bullet_4.png"
+        }
+      },
+      {
+        "file": "assets/Bullet 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/1968c412743104e67273b5ab7dfc03190241467ab78034511f23a8ca6c01a6f6_Bullet 1.png",
+          "name": "Bullet 1.png"
+        }
+      },
+      {
+        "file": "assets/Bullet 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/f8c97f4f344ceda06e1b53c65b15e33b24c6256e0991bc881eb7f2317b89ba57_Bullet 5.png",
+          "name": "Bullet 5.png"
+        }
+      },
+      {
+        "file": "Space Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Space Background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "stg_st001-short_88pro-intro.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stg_st001-short_88pro-intro.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "stg_st001-short_88pro-loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stg_st001-short_88pro-loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -208,7 +548,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4790395861757388,
+        "zoomFactor": 1.5804687500000005,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -224,8 +564,24 @@
           "persistentUuid": "f9f1f6c0-fdd7-4694-8580-22021ab68fd6",
           "width": 0,
           "x": 201,
-          "y": 204,
+          "y": 201,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background",
+          "persistentUuid": "0b489889-0610-4c22-9de4-9a926f0ea4d4",
+          "width": 0,
+          "x": 120,
+          "y": 111,
+          "zOrder": -10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -238,7 +594,18 @@
           "name": "Jogador",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "gunPointX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "gunPointY",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -311,16 +678,16 @@
               "MarginRight": 0
             },
             {
-              "ignoreDefaultControls": true,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "deceleration": 1200,
+              "ignoreDefaultControls": true,
               "maxSpeed": 200,
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
               "customIsometryAngle": 30,
-              "deceleration": 800,
               "movementAngleOffset": 0,
               "rotateObject": false,
               "viewpoint": "TopDown"
@@ -338,11 +705,22 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "navetest.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Gunpoint1",
+                          "x": 28,
+                          "y": 10
+                        },
+                        {
+                          "name": "Gunpoint2",
+                          "x": 4,
+                          "y": 10
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 16,
+                        "y": 16
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -379,25 +757,1035 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
+          "assetStoreId": "1fd8f57bc251790336937768ca17614643c2e22148382f8f7f26838a64c2b45e",
           "name": "pBullet",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "Nautolan Bullet_1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Bullet_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 4.5,
+                        "y": 6
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 8,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
+          "assetStoreId": "41d69f496ff73c012a8305456ffc7809f264f19e07da068c039e2031eeffb5f6",
+          "name": "NautolanSpinningBullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Nautolan Spinning Bullet_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "7fc93549b57afd93f850df6147ee1c631d389e3c71799c5353b26ef10469fcf1",
+          "name": "KlaedBullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Bullet_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Bullet_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Bullet_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Bullet_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 4
+                          },
+                          {
+                            "x": 3,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "4dd37ac1a07e14d5a6917523dc5c9923e6370fb8c8e26c0fa37ea196dcd25ff7",
+          "name": "KlaedBigBullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Big Bullet_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Big Bullet_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Big Bullet_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Klaed Big Bullet_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 4
+                          },
+                          {
+                            "x": 7,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "b9c7dea224a0b7ecf6d781229de6dc63e728a91488a2035afa17e737aa51a4c6",
           "name": "eBullet",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bullet 5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "background",
+          "texture": "Space Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -407,10 +1795,22 @@
             "objectName": "Jogador"
           },
           {
+            "objectName": "eBullet"
+          },
+          {
+            "objectName": "KlaedBigBullet"
+          },
+          {
+            "objectName": "KlaedBullet"
+          },
+          {
+            "objectName": "NautolanSpinningBullet"
+          },
+          {
             "objectName": "pBullet"
           },
           {
-            "objectName": "eBullet"
+            "objectName": "background"
           }
         ]
       },
@@ -427,7 +1827,107 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Jogador",
+                "=",
+                "SceneWindowWidth()*0.5",
+                "=",
+                "SceneWindowHeight()*0.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "background",
+                "=",
+                "0",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "background",
+                "Resizable",
+                "SceneWindowWidth()",
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "stg_st001-short_88pro-intro.ogg",
+                "1",
+                "no",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::YOffset"
+              },
+              "parameters": [
+                "background",
+                "+",
+                "-0.3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "stg_st001-short_88pro-loop.ogg",
+                "2",
+                "yes",
+                "50",
+                ""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -575,7 +2075,6 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -599,16 +2098,75 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "gunPointX",
+                    "=",
+                    "Jogador.PointX(\"Gunpoint1\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "gunPointY",
+                    "=",
+                    "Jogador.PointY(\"Gunpoint1\")"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "FireBullet::FireBullet::Fire"
                   },
                   "parameters": [
                     "Jogador",
                     "FireBullet",
-                    "\"pGunPointX\"",
-                    "\"pGunpointY\"",
-                    "",
-                    "",
-                    "",
+                    "Jogador.Variable(gunPointX)",
+                    "Jogador.Variable(gunPointY)",
+                    "pBullet",
+                    "-90",
+                    "120",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "gunPointX",
+                    "=",
+                    "Jogador.PointX(\"Gunpoint2\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "gunPointY",
+                    "=",
+                    "Jogador.PointY(\"Gunpoint2\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::Fire"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "FireBullet",
+                    "Jogador.Variable(gunPointX)",
+                    "Jogador.Variable(gunPointY)",
+                    "pBullet",
+                    "-90",
+                    "120",
                     ""
                   ]
                 }
