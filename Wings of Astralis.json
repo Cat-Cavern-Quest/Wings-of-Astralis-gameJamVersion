@@ -486,6 +486,30 @@
         "name": "Space Background(3).png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "navetests2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "navetests2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "navetest2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "navetest2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "navetest3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "navetest3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -768,6 +792,65 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "navetest.png",
+                      "points": [
+                        {
+                          "name": "Gunpoint1",
+                          "x": 28,
+                          "y": 10
+                        },
+                        {
+                          "name": "Gunpoint2",
+                          "x": 4,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "side",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "navetest3.png",
                       "points": [
                         {
                           "name": "Gunpoint1",
@@ -2142,6 +2225,27 @@
                     "TopDownMovement",
                     "\"Left\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Flippable",
+                    "no"
+                  ]
                 }
               ]
             },
@@ -2175,6 +2279,27 @@
                     "Jogador",
                     "TopDownMovement",
                     "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Flippable",
+                    "yes"
                   ]
                 }
               ]
@@ -2243,6 +2368,64 @@
                     "Jogador",
                     "TopDownMovement",
                     "\"Down\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Jogador",
+                        "TopDownMovement",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Jogador",
+                        "TopDownMovement",
+                        "\"Right\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Animation",
+                    "=",
+                    "0"
                   ]
                 }
               ]
