@@ -438,6 +438,54 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Simple Gunshot 001.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Simple Gunshot 001.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Retro Gun SingleShot 04.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Retro Gun SingleShot 04.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "laser.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "laser.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "shoot-2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "shoot-2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Space Background(3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Space Background(3).png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -604,6 +652,21 @@
               "name": "gunPointY",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Acceleration",
+              "type": "number",
+              "value": 400
+            },
+            {
+              "name": "Deceleration",
+              "type": "number",
+              "value": 400
+            },
+            {
+              "name": "M_speed",
+              "type": "number",
+              "value": 200
             }
           ],
           "effects": [],
@@ -678,12 +741,12 @@
               "MarginRight": 0
             },
             {
+              "acceleration": 400,
+              "deceleration": 400,
+              "maxSpeed": 200,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "deceleration": 1200,
               "ignoreDefaultControls": true,
-              "maxSpeed": 200,
-              "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -1780,7 +1843,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "background",
-          "texture": "Space Background.png",
+          "texture": "Space Background(3).png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -1827,53 +1890,105 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Jogador",
-                "=",
-                "SceneWindowWidth()*0.5",
-                "=",
-                "SceneWindowHeight()*0.8"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "=",
+                    "SceneWindowWidth()*0.5",
+                    "=",
+                    "SceneWindowHeight()*0.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "background",
+                    "=",
+                    "0",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "background",
+                    "Resizable",
+                    "SceneWindowWidth()",
+                    "SceneWindowHeight()"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "background",
-                "=",
-                "0",
-                "=",
-                "0"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "stg_st001-short_88pro-intro.ogg",
+                    "1",
+                    "no",
+                    "50",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetSize"
-              },
-              "parameters": [
-                "background",
-                "Resizable",
-                "SceneWindowWidth()",
-                "SceneWindowHeight()"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "stg_st001-short_88pro-intro.ogg",
-                "1",
-                "no",
-                "50",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Acceleration",
+                    "=",
+                    "400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Deceleration",
+                    "=",
+                    "800"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "M_speed",
+                    "=",
+                    "200"
+                  ]
+                }
               ]
             }
           ]
@@ -1881,15 +1996,73 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "TiledSpriteObject::YOffset"
-              },
-              "parameters": [
-                "background",
-                "+",
-                "-0.3"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::YOffset"
+                  },
+                  "parameters": [
+                    "background",
+                    "+",
+                    "-0.3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "Health",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::Acceleration"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "TopDownMovement",
+                    "=",
+                    "Jogador.Acceleration"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::Deceleration"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "TopDownMovement",
+                    "=",
+                    "Jogador.Deceleration"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Jogador",
+                    "TopDownMovement",
+                    "=",
+                    "Jogador.M_speed"
+                  ]
+                }
               ]
             }
           ]
@@ -1923,7 +2096,7 @@
                 "stg_st001-short_88pro-loop.ogg",
                 "2",
                 "yes",
-                "50",
+                "40",
                 ""
               ]
             }
@@ -2168,6 +2341,37 @@
                     "-90",
                     "120",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::HasJustFired"
+                      },
+                      "parameters": [
+                        "Jogador",
+                        "FireBullet",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "shoot-2.wav",
+                        "",
+                        "60",
+                        "RandomInRange(0.8,1.2)"
+                      ]
+                    }
                   ]
                 }
               ]
