@@ -4493,7 +4493,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3841198046306868,
+        "zoomFactor": 1.4307927813134294,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -4614,55 +4614,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 15,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Chefe_barra",
-          "persistentUuid": "7e330009-81aa-41e6-a2fe-1adf51b6725a",
-          "width": 210,
-          "x": 145,
-          "y": 3,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Player_Health",
-          "persistentUuid": "fb96eb79-c887-4aa4-8e17-fab3a15eefca",
-          "width": 0,
-          "x": 18,
-          "y": 234,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Boss_Health",
-          "persistentUuid": "d9f12e94-9321-4789-b7ed-6cd8a8faf7b9",
-          "width": 0,
-          "x": 211,
-          "y": 17,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -4670,8 +4621,8 @@
           "name": "Stage",
           "persistentUuid": "1217694b-42bb-489b-947d-be0ea00974d4",
           "width": 0,
-          "x": 11,
-          "y": 2,
+          "x": 420,
+          "y": 244,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -7683,105 +7634,6 @@
           }
         },
         {
-          "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
-          "name": "Chefe_barra",
-          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 0,
-              "leftEdgeAnchor": 4,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 4,
-              "topEdgeAnchor": 0,
-              "useLegacyBottomAndRightAnchors": false
-            }
-          ],
-          "content": {
-            "MaxValue": 16,
-            "InitialValue": 8,
-            "BarLeftPadding": 9,
-            "BarRightPadding": 9,
-            "BarBottomPadding": 3,
-            "BarTopPadding": 3,
-            "EasingDuration": 0.25,
-            "PreviousHighValueDuration": 0,
-            "ShowLabel": true
-          },
-          "childrenContent": {
-            "Background": {
-              "bottomMargin": 6,
-              "height": 15,
-              "leftMargin": 11,
-              "rightMargin": 11,
-              "texture": "Copper Bar Border.png",
-              "tiled": false,
-              "topMargin": 6,
-              "width": 96
-            },
-            "Buffer": {
-              "bottomMargin": 0,
-              "height": 8,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Framed Pixel Red Fill Bar.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "FillBar": {
-              "bottomMargin": 3,
-              "height": 8,
-              "leftMargin": 4,
-              "rightMargin": 4,
-              "texture": "Framed Pixel Red Fill Bar.png",
-              "tiled": false,
-              "topMargin": 3,
-              "width": 32
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "8 / 16",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 8,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "8 / 16",
-                "font": "",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 8,
-                "color": "255;255;255"
-              }
-            }
-          }
-        },
-        {
           "assetStoreId": "",
           "bold": true,
           "italic": false,
@@ -7874,9 +7726,6 @@
           },
           {
             "objectName": "Jogador_barra"
-          },
-          {
-            "objectName": "Chefe_barra"
           },
           {
             "objectName": "Stage"
@@ -9179,8 +9028,8 @@
                     "Jogador",
                     "Health",
                     "15",
-                    "",
-                    "",
+                    "no",
+                    "no",
                     ""
                   ]
                 },
@@ -9296,8 +9145,8 @@
                         "Chefe",
                         "Health",
                         "15",
-                        "",
-                        "",
+                        "no",
+                        "no",
                         ""
                       ]
                     },
@@ -9413,467 +9262,18 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Chefe",
-                        "Acao",
-                        ">",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Ação 1 : patrulhando e atirando"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "Acao",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "Tween",
-                                "\"part1\"",
-                                "Top_Left.X()",
-                                "\"easeInOutQuad\"",
-                                "1.5",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "Tween",
-                                "\"part2\"",
-                                "Top_right.X()",
-                                "\"easeInOutQuad\"",
-                                "4",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "3.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "Tween",
-                                "\"part3\"",
-                                "Top_Center.X()",
-                                "\"easeInOutQuad\"",
-                                "1.5",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "Acao",
-                                "=",
-                                "0"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Tween::IsPlaying"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "Tween",
-                                "\"part2\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "eBullet",
-                                "=",
-                                "-1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FireBullet::FireBullet::SetBulletQuantityOp"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "FireBullet",
-                                "=",
-                                "1",
-                                "eBullet"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FireBullet::FireBullet::Fire"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "FireBullet",
-                                "Chefe.PointX(\"Gunpoint1\")",
-                                "Chefe.PointY(\"Gunpoint1\")",
-                                "eBullet",
-                                "120",
-                                "100",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FireBullet::FireBullet::Fire"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "FireBullet",
-                                "Chefe.PointX(\"Gunpoint2\")",
-                                "Chefe.PointY(\"Gunpoint2\")",
-                                "eBullet",
-                                "50",
-                                "100",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ScalableCapability::ScalableBehavior::SetValue"
-                              },
-                              "parameters": [
-                                "eBullet",
-                                "Scale",
-                                "=",
-                                "0.8"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "FireBullet::FireBullet::HasJustFired"
-                                  },
-                                  "parameters": [
-                                    "Chefe",
-                                    "FireBullet",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "shoot-2.wav",
-                                    "",
-                                    "50",
-                                    "RandomInRange(1.4,18)"
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Ação 2 : Tiro de centro"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "Acao",
-                            "=",
-                            "2"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ChangePlan"
-                          },
-                          "parameters": [
-                            "eBullet",
-                            "=",
-                            "-1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FireBullet::FireBullet::SetBulletQuantityOp"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "FireBullet",
-                            "=",
-                            "4",
-                            "eBullet"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FireBullet::FireBullet::SetFiringArcOp"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "FireBullet",
-                            "=",
-                            "120",
-                            "eBullet"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FireBullet::FireBullet::Fire"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "FireBullet",
-                            "Chefe.PointX(\"Gunpoint1\")",
-                            "Chefe.PointY(\"Gunpoint1\")",
-                            "eBullet",
-                            "120",
-                            "100",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FireBullet::FireBullet::Fire"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "FireBullet",
-                            "Chefe.PointX(\"Gunpoint2\")",
-                            "Chefe.PointY(\"Gunpoint2\")",
-                            "eBullet",
-                            "50",
-                            "100",
-                            ""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "FireBullet::FireBullet::HasJustFired"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "FireBullet",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "shoot-2.wav",
-                                "",
-                                "50",
-                                "RandomInRange(1.4,18)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Chefe",
-                                "Acao",
-                                "=",
-                                "0"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Ação 3 : Ultimate"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "Acao",
-                            "=",
-                            "3"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Chefe",
-                            "Acao",
-                            "=",
-                            "0"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Chefe",
-                        "Acao",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Chefe",
-                        "Acao",
-                        "=",
-                        "RandomInRange(1,Chefe.Progressao)"
-                      ]
-                    }
-                  ]
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "Chefe acoes"
                 },
                 {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Tween position",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -10087,34 +9487,12 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-              },
-              "parameters": [
-                "Chefe_barra",
-                "=",
-                "Chefe.Health::MaxHealth()",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
               },
               "parameters": [
                 "Jogador_barra",
                 "=",
                 "Jogador.Health::Health()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "Chefe_barra",
-                "=",
-                "Chefe.Health::Health()",
                 ""
               ]
             },
@@ -10680,7 +10058,472 @@
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Jogo",
+      "name": "Chefe acoes",
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Chefe",
+                "Acao",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ação 1 : patrulhando e atirando"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "Acao",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "Tween",
+                        "\"part1\"",
+                        "Top_Left.X()",
+                        "\"easeInOutQuad\"",
+                        "1.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "Tween",
+                        "\"part2\"",
+                        "Top_right.X()",
+                        "\"easeInOutQuad\"",
+                        "4",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "Tween",
+                        "\"part3\"",
+                        "Top_Center.X()",
+                        "\"easeInOutQuad\"",
+                        "1.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "Acao",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::IsPlaying"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "Tween",
+                        "\"part2\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "eBullet",
+                        "=",
+                        "-1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::SetBulletQuantityOp"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "FireBullet",
+                        "=",
+                        "1",
+                        "eBullet"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::Fire"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "FireBullet",
+                        "Chefe.PointX(\"Gunpoint1\")",
+                        "Chefe.PointY(\"Gunpoint1\")",
+                        "eBullet",
+                        "120",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::Fire"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "FireBullet",
+                        "Chefe.PointX(\"Gunpoint2\")",
+                        "Chefe.PointY(\"Gunpoint2\")",
+                        "eBullet",
+                        "50",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "eBullet",
+                        "Scale",
+                        "=",
+                        "0.8"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FireBullet::FireBullet::HasJustFired"
+                          },
+                          "parameters": [
+                            "Chefe",
+                            "FireBullet",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "shoot-2.wav",
+                            "",
+                            "50",
+                            "RandomInRange(1.4,18)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ação 2 : Tiro de centro"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "Acao",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "eBullet",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::SetBulletQuantityOp"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "FireBullet",
+                    "=",
+                    "4",
+                    "eBullet"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::SetFiringArcOp"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "FireBullet",
+                    "=",
+                    "120",
+                    "eBullet"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::Fire"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "FireBullet",
+                    "Chefe.PointX(\"Gunpoint1\")",
+                    "Chefe.PointY(\"Gunpoint1\")",
+                    "eBullet",
+                    "120",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::Fire"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "FireBullet",
+                    "Chefe.PointX(\"Gunpoint2\")",
+                    "Chefe.PointY(\"Gunpoint2\")",
+                    "eBullet",
+                    "50",
+                    "100",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FireBullet::FireBullet::HasJustFired"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "FireBullet",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "shoot-2.wav",
+                        "",
+                        "50",
+                        "RandomInRange(1.4,18)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Chefe",
+                        "Acao",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Ação 3 : Ultimate"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "Acao",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Chefe",
+                    "Acao",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Chefe",
+                "Acao",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Chefe",
+                "Acao",
+                "=",
+                "RandomInRange(1,Chefe.Progressao)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "@4ian",
